@@ -12,7 +12,7 @@ class RestrictionRouletteController extends AbstractController
 	private array $restrictions = [
 		'Instrumentation' => [
 			'Use only percussion',
-			'No piano allowed',
+			'No piano instruments allowed',
 			'String instruments only',
 			'Synthesizers only',
 			'No bass instruments',

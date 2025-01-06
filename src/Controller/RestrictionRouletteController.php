@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class RestrictionRouletteController extends AbstractController
 {
-	private $restrictions = [
+	private array $restrictions = [
 		'Instrumentation' => [
 			'Use only percussion',
 			'No piano allowed',

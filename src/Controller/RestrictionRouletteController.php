@@ -31,11 +31,12 @@ class RestrictionRouletteController extends AbstractController
 			'Use at least one diminished chord',
 			'Avoid using triads',
 			'Resolve to a non-tonic chord',
-			'Use a non Ionian/Aeolean mode',
+			'Use a non Ionian/Aeolian mode',
 		],
 		'Rhythm' => [
 			'Compose in 5/4',
 			'Compose in 7/8',
+			'Compose in 3/4',
 			'Include no eighth notes',
 			'Syncopation required in every measure'
 		],
